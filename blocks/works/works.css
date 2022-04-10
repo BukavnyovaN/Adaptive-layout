@@ -89,3 +89,32 @@
 .works__galleryItem:hover .works__galleryMask {
 	visibility: visible;
 }
+
+@media screen and (max-width: 320px) {
+
+	.works__intro {
+		font-size: 24px;
+	}
+
+	.works__title {
+		font-size: 24px;
+	}
+
+	.works__line {
+		padding: 24px 0 24px 0;
+		text-align: center;
+	}
+
+	.works__text {
+		font-size: 14px;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
+	.works__gallery {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		gap: -5px;
+	}
+
+}

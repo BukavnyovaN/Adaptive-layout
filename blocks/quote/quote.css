@@ -35,3 +35,29 @@
 	line-height: 44px;
 	color: #000000;
 }
+
+@media screen and (max-width: 320px) {
+	.quote svg {
+		display: none;
+	}
+
+	.quote__container {
+		flex-direction: column;
+	}
+
+	.quote__line {
+		display: block;
+	}
+
+	.quote__image {
+		display: none;
+	}
+
+	.quote__textMain {
+		font-size: 14px;
+	}
+
+	.quote__textName {
+		font-size: 18px;
+	}
+}

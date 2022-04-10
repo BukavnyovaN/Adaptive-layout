@@ -146,3 +146,16 @@
 	border-top: 1px solid #C6CBCD;
 	margin-top: 42px;
 }
+
+@media screen and (max-width: 320px) {
+	.footer__columns {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.footer__blogItem img {
+		max-width: 83px;
+	}
+
+}

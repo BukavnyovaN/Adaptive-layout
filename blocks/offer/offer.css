@@ -77,3 +77,51 @@
 	margin-right: auto;
 	padding: 24px 0px 24px 12px;
 }
+
+@media screen and (max-width: 1024px) {
+	.offer {
+		gap: 20px;
+	}
+
+	.offer__intro {
+		font-size: 24px;
+	}
+
+	.offer__title {
+		font-size: 24px;
+	}
+
+	.offer__text {
+		font-size: 14px;
+	}
+
+	.offer__services {
+		display: flex;
+		gap: 18px;
+	}
+
+
+	.offer__listItemText {
+		font-size: 14px;
+	}
+
+	.offer__listItemTitle {
+		font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.offer__services {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		max-width: 288px;
+		gap: 18px;
+	}
+
+	.offer__services img {
+		max-width: 288px;
+	}
+
+}

@@ -45,3 +45,39 @@
 	bottom: -100px;
 	right: 190px;
 }
+
+@media screen and (max-width: 1024px) {
+	.design__intro {
+		font-size: 24px;
+	}
+
+	.design__line {
+		margin-bottom: 39px;
+	}
+
+	.design__title {
+		font-size: 24px;
+	}
+
+	.design__devices {
+		position: relative;
+	}
+
+	.design__devicesTablet {
+		max-width: 100%;
+	}
+
+	.design__devicesPhone {
+		position: absolute;
+		bottom: -54px;
+		right: 44px;
+	}
+
+	.design__devices img {
+		max-width: 288px;
+	}
+
+	.design__devicesPhone img {
+		max-width: 60px;
+	}
+}

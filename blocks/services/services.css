@@ -5,6 +5,7 @@
 	gap: 30px;
 	margin-bottom: 90px;
 }
+
 .services__intro {
 	font-family: Kaushan Script;
 	font-size: 30px;
@@ -12,6 +13,7 @@
 	line-height: 44px;
 	text-align: center;
 }
+
 .services__title {
 	font-family: Raleway;
 	font-size: 36px;
@@ -22,6 +24,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 .services__gridItem {
 	display: flex;
 	flex-wrap: wrap;
@@ -29,11 +32,13 @@
 	gap: 35px;
 	padding-top: 90px;
 }
+
 .services__grid {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 35px;
 }
+
 .services__gridTitle {
 	font-family: 'Raleway';
 	font-style: normal;
@@ -44,6 +49,7 @@
 	text-transform: uppercase;
 	color: #2D3033;
 }
+
 .services__gridText {
 	max-width: 270px;
 	font-family: 'Raleway';
@@ -54,4 +60,40 @@
 	text-align: left;
 	margin-left: auto;
 	color: #2D3033;
+}
+
+@media screen and (max-width: 1024px) {
+	.services__gridItem {
+		flex-wrap: no-wrap;
+	}
+
+	.services__intro {
+		font-size: 24px;
+	}
+
+	.services__title {
+		font-size: 24px;
+	}
+
+	.services__gridTitle {
+		font-size: 18px;
+	}
+
+	.services__gridText {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.services__grid {
+		display: flex;
+		flex-direction: column;
+		gap: 35px;
+	}
+
+	.services__gridItem {
+		max-width: 100%;
+
+	}
 }

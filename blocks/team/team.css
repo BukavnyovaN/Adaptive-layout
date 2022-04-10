@@ -99,3 +99,14 @@
 .team__contactsItem:hover {
 	transform: scale(1.1);
 }
+
+@media screen and (max-width: 320px) {
+	.team__gallery {
+		flex-wrap: wrap;
+	}
+
+	.team__gallery img {
+		max-width: 288px;
+	}
+
+}

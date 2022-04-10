@@ -112,3 +112,80 @@
 	letter-spacing: 0em;
 	color: #F9EFCF;
 }
+
+@media screen and (max-width: 1024px) {
+	.header__menuList {
+		gap: 25px;
+	}
+
+	.header__menuItem a {
+		font-size: 13px;
+		line-height: 15.26px;
+	}
+
+	.header__text {
+		font-size: 48px;
+	}
+
+	.header__title {
+		font-size: 96px;
+	}
+
+	.header__line {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+	.header__slider {
+		margin-top: 78px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.header__sliderTitle {
+		font-size: 24px;
+	}
+
+	.header__sliderText {
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.header__menuList {
+		visibility: hidden;
+	}
+
+	.header__menuList::after {
+		background-image: url("./icon_menu.png");
+	}
+
+	.header__text {
+		font-size: 36px;
+	}
+
+	.header__title {
+		font-size: 48px;
+	}
+
+	.header__line {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+
+	.header__slider {
+		margin-top: 78px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	.header__sliderTitle {
+		display: none;
+	}
+
+	.header__sliderText {
+		display: none;
+	}
+}
